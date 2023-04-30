@@ -1,14 +1,16 @@
 # 🎲 Histogramo Dice Model Zoo
 
-A collection of TensorFlow Lite Object Detection models that are compatible with Histogramo (models using the supported labels).
+A collection of TensorFlow Lite Object Detection models that recognize dice.
 
 ## Models
 
-- [Histogramo Standard](https://github.com/histogramo/dice-model-zoo)
-- [Histogramo Cities and Knights](https://github.com/histogramo/dice-model-zoo)
-- [Byler D6 Dice](https://github.com/histogramo/dice-model-zoo)
+- [Histogramo Standard](https://github.com/histogramo/dice-model-zoo/tree/main/histogramo-standard)
+- [Histogramo Cities and Knights](https://github.com/histogramo/dice-model-zoo/tree/main/histogramo-cities-and-knights)
+- [Byler D6 Dice](https://github.com/histogramo/dice-model-zoo/tree/main/byler-d6-dice)
 
 ## Supported Labels
+
+While Histogramo can load any TensorFlow Lite object detection model, it only supports the following labels for recognizing dice:
 
 - `one`
 - `two`
@@ -16,6 +18,9 @@ A collection of TensorFlow Lite Object Detection models that are compatible with
 - `four`
 - `five`
 - `six`
+
+For Cities and Knights, the red die has special meaning. There is also a special "boat" die for events:
+
 - `red_one`
 - `red_two`
 - `red_three`
@@ -55,4 +60,4 @@ Remember to be respectful and professional in your interactions with other contr
 
 # License
 
-Models in this repository are available for use under the MIT license.
+Models in this repository are available for use under the [MIT license](https://github.com/histogramo/dice-model-zoo/blob/main/LICENSE).

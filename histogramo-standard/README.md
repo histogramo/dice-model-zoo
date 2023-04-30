@@ -2,12 +2,16 @@
 
 Six-sided dice of different colors taken on different backgrounds (wood table, green felt craps mat, white conference table) from a variety of distances and angles (top-down and oblique). Each image contains only one die.
 
+## Model File
+
+[https://github.com/histogramo/dice-model-zoo/blob/main/histogramo-standard/histogramo-standard.tflite](https://github.com/histogramo/dice-model-zoo/blob/main/histogramo-standard/histogramo-standard.tflite)
+
 ## Dataset
 
-**Target:** d6 dice, different colors (white, black, red, blue, yellow, green)
-**View:** top-down and oblique angles
-**Dataset:** Unavailable
-**Dataset Size**: 2671 images
+- **Target:** d6 dice, different colors (white, black, red, blue, yellow, green)
+- **View:** top-down and oblique angles
+- **Dataset:** Unavailable
+- **Dataset Size**: 2671 images
 
 ## Labels
 

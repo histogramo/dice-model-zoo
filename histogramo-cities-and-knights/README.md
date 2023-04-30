@@ -2,12 +2,16 @@
 
 Six-sided dice of different colors taken on different backgrounds (wood table, green felt craps mat, white conference table) from a variety of distances and angles (top-down and oblique). Each image contains only one die. Also includes the Cities and Knights Boat Die (`boat `, `green`, `yellow`, and `blue` labels).
 
+## Model File
+
+[https://github.com/histogramo/dice-model-zoo/blob/main/histogramo-cities-and-knights/histogramo-cities-and-knights.tflite](https://github.com/histogramo/dice-model-zoo/blob/main/histogramo-cities-and-knights/histogramo-cities-and-knights.tflite)
+
 ## Dataset
 
-**Target:** d6 dice, different colors (white, black, red, blue, yellow, green), cities and knights boat die
-**View:** top-down and oblique angles
-**Dataset:** Unavailable
-**Dataset Size**: X images
+- **Target:** d6 dice, different colors (white, black, red, blue, yellow, green), cities and knights boat die
+- **View:** top-down and oblique angles
+- **Dataset:** Unavailable
+- **Dataset Size**: 3009 images
 
 ## Labels
 
